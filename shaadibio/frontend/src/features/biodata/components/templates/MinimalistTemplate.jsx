@@ -11,7 +11,7 @@ const MinimalistTemplate = ({ data }) => {
       <div className="flex flex-col md:flex-row items-center gap-10 mb-16 border-b-2 border-black pb-12">
          {personal.profilePhoto ? (
              <div className="w-48 h-48 overflow-hidden grayscale border border-black">
-                 <img src={`http://localhost:5000${personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
+                 <img src={`https://shaadibio-server.onrender.com${personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
              </div>
          ) : (
             <div className="w-48 h-48 bg-gray-100 flex items-center justify-center border border-black">

@@ -60,7 +60,7 @@ const EditBiodata = () => {
 
         // Current photo preview from DB
         if (data.personal && data.personal.profilePhoto) {
-            setPhotoPreview(`http://localhost:5000${data.personal.profilePhoto}`);
+            setPhotoPreview(`https://shaadibio-server.onrender.com${data.personal.profilePhoto}`);
         }
 
       } catch (err) {

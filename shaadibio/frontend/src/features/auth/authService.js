@@ -1,5 +1,5 @@
 // URL for the backend API
-const API_URL = 'http://localhost:5000/api/auth/';
+const API_URL = 'https://shaadibio-server.onrender.com/api/auth/';
 
 // Register user
 const register = async (userData) => {

@@ -19,7 +19,7 @@ const TraditionalTemplate = ({ data }) => {
          <div className="flex flex-col items-center justify-center gap-4">
              {personal.profilePhoto ? (
                  <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-[#D4AF37] shadow-xl">
-                     <img src={`http://localhost:5000${personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
+                     <img src={`https://shaadibio-server.onrender.com${personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
                  </div>
              ) : (
                 <div className="w-32 h-32 rounded-full bg-[#8B0000]/10 flex items-center justify-center border-4 border-[#D4AF37]">

@@ -135,7 +135,7 @@ const DashboardHome = () => {
                   <div className="flex items-center gap-4 w-full md:w-auto flex-1 min-w-0">
                     <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center overflow-hidden shrink-0 border border-primary/20">
                       {bio.personal?.profilePhoto ? (
-                        <img src={`http://localhost:5000${bio.personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
+                        <img src={`https://shaadibio-server.onrender.com${bio.personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
                       ) : (
                         <FileText className="text-primary" size={20} />
                       )}

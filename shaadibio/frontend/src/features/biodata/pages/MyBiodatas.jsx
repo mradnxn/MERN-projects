@@ -102,7 +102,7 @@ const MyBiodatas = () => {
                                 </div>
                                 <div className="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center absolute -bottom-8 border-4 border-surface text-primary overflow-hidden">
                                     {biodata.personal.profilePhoto ? (
-                                        <img src={`http://localhost:5000${biodata.personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
+                                        <img src={`https://shaadibio-server.onrender.com${biodata.personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
                                     ) : (
                                         <User size={28} />
                                     )}

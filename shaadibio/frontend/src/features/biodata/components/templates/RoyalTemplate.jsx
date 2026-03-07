@@ -15,7 +15,7 @@ const RoyalTemplate = ({ data }) => {
          <div className="flex justify-center mb-6">
              {personal.profilePhoto ? (
                  <div className="w-40 h-40 rounded-full overflow-hidden shadow-[0_0_20px_rgba(212,175,55,0.4)] border-[6px] border-[#D4AF37]">
-                     <img src={`http://localhost:5000${personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
+                     <img src={`https://shaadibio-server.onrender.com${personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
                  </div>
              ) : (
                 <div className="w-40 h-40 rounded-full bg-[#D4AF37]/10 flex items-center justify-center border-[6px] border-[#D4AF37] shadow-[0_0_20px_rgba(212,175,55,0.4)]">

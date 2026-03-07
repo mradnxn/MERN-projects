@@ -15,7 +15,7 @@ const SikhTemplate = ({ data }) => {
          <div className="flex flex-col items-center justify-center gap-4 mt-6">
              {personal.profilePhoto ? (
                  <div className="w-36 h-36 rounded-full overflow-hidden shadow-xl border-4 border-[#FF9933]">
-                     <img src={`http://localhost:5000${personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
+                     <img src={`https://shaadibio-server.onrender.com${personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
                  </div>
              ) : (
                 <div className="w-36 h-36 rounded-full bg-[#FF9933]/10 flex items-center justify-center border-4 border-[#FF9933]">

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/biodatas/';
+const API_URL = 'https://shaadibio-server.onrender.com/api/biodatas/';
 
 // Create new biodata
 const createBiodata = async (biodataData, token) => {

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/payment/';
+const API_URL = 'https://shaadibio-server.onrender.com/api/payment/';
 
 // Upgrade to premium
 const upgradeToPremium = async (token) => {

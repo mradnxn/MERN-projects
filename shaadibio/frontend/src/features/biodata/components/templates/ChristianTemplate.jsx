@@ -14,7 +14,7 @@ const ChristianTemplate = ({ data }) => {
          <div className="flex flex-col items-center justify-center gap-4 mt-6">
              {personal.profilePhoto ? (
                  <div className="w-32 h-32 rounded-full overflow-hidden shadow-md border-2 border-[#3498DB]">
-                     <img src={`http://localhost:5000${personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
+                     <img src={`https://shaadibio-server.onrender.com${personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
                  </div>
              ) : (
                 <div className="w-32 h-32 rounded-full bg-[#ECF0F1] flex items-center justify-center border-2 border-[#3498DB]">

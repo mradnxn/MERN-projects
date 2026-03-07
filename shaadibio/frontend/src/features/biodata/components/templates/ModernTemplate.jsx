@@ -11,7 +11,7 @@ const ModernTemplate = ({ data }) => {
       <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-10 flex flex-col md:flex-row items-center gap-8 border-b border-gray-100">
         {personal.profilePhoto ? (
             <div className="w-40 h-40 rounded-3xl overflow-hidden shadow-lg border-4 border-white flex-shrink-0 bg-white transform rotate-3 hover:rotate-0 transition-transform duration-300">
-                <img src={`http://localhost:5000${personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
+                <img src={`https://shaadibio-server.onrender.com${personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
             </div>
         ) : (
             <div className="w-40 h-40 rounded-3xl bg-blue-100 flex items-center justify-center text-blue-500 flex-shrink-0 shadow-sm border-4 border-white">

@@ -19,7 +19,7 @@ const FloralTemplate = ({ data }) => {
           <div className="flex flex-col items-center justify-center text-center mb-16">
             {personal.profilePhoto ? (
                 <div className="w-40 h-40 rounded-full overflow-hidden shadow-xl mb-6 border-4 border-white ring-4 ring-[#2a9d8f]/30">
-                    <img src={`http://localhost:5000${personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
+                    <img src={`https://shaadibio-server.onrender.com${personal.profilePhoto}`} alt="Profile" className="w-full h-full object-cover" />
                 </div>
             ) : (
                 <div className="w-40 h-40 rounded-full bg-[#2a9d8f]/10 flex items-center justify-center mb-6 border-4 border-white ring-4 ring-[#2a9d8f]/30">
