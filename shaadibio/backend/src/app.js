@@ -6,7 +6,10 @@ const biodataRoutes = require("./routes/biodataRoutes");
 const paymentRoutes = require("./routes/paymentRoutes");
 const path = require("path");
 
-app.use(cors());
+app.use(cors({
+    origin: ['http://localhost:5173', 'https://shaadibio.netlify.app'],
+    credentials: true
+}));
 app.use(express.json());
 
 // Expose the uploads directory to the internet
