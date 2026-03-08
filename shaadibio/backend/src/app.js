@@ -7,9 +7,15 @@ const paymentRoutes = require("./routes/paymentRoutes");
 const path = require("path");
 
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://shaadibio.netlify.app'],
-    credentials: true
+    origin: ['http://localhost:5173', 'https://shaadibio.netlify.app', 'https://shaadibio.netlify.app/'],
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true,
+    optionsSuccessStatus: 200
 }));
+
+// Explicitly handle OPTIONS requests for preflight
+app.options('*', cors());
 app.use(express.json());
 
 // Expose the uploads directory to the internet
