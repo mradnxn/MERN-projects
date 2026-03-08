@@ -14,8 +14,7 @@ app.use(cors({
     optionsSuccessStatus: 200
 }));
 
-// Explicitly handle OPTIONS requests for preflight
-app.options('(.*)', cors());
+// Global cors middleware already handles preflight OPTIONS requests
 app.use(express.json());
 
 // Expose the uploads directory to the internet
