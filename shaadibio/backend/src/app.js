@@ -15,7 +15,7 @@ app.use(cors({
 }));
 
 // Explicitly handle OPTIONS requests for preflight
-app.options('*', cors());
+app.options('(.*)', cors());
 app.use(express.json());
 
 // Expose the uploads directory to the internet
